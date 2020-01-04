@@ -5,7 +5,12 @@
   <title>double great</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-  * { margin: 0; padding: 0}
+  @import url("https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:100,900&display=swap");
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
   *,
   *:before,
   *:after {
@@ -23,14 +28,18 @@
     align-items: center;
     justify-content: center;
     -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 
   h1 {
-    text-shadow: 0.5em 0.9em 0 #fff;
-    font-family: monospace;
-    font-size: 5vmin;
-    box-shadow: 0.5em 0.9em 0 #000, 0.05em 0.05em 0 #000;
+    font-family: "Saira Semi Condensed", sans-serif;
+    text-transform: uppercase;
+    font-size: 10vmin;
+    font-weight: 100;
+  }
+  h1:after {
+    content: "great";
+    font-weight: 900;
   }
 </style>
 </head>
