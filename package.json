@@ -1,0 +1,29 @@
+{
+  "name": "double-great.github.io",
+  "version": "1.0.0",
+  "description": "✌️✌️",
+  "main": "index.js",
+  "scripts": {
+    "pretty-quick": "pretty-quick"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/double-great/double-great.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/double-great/double-great.github.io/issues"
+  },
+  "homepage": "https://github.com/double-great/double-great.github.io#readme",
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
