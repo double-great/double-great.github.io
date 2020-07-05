@@ -1,0 +1,35 @@
+title: Double Great
+description: "Web projects made in Upstate New York."
+url: "https://doublegreat.dev"
+theme: minima
+github: double-great
+permalink: pretty
+collections:
+  projects:
+    output: true
+show_excerpts: true
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "post"
+
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .github
+  - library.dic
