@@ -10,7 +10,7 @@ a {
   color: #2371d8; // a11y color contrast
 }
 
-.post-list  h2 {
+.post-list h2 {
   margin-bottom: 0;
 }
 
@@ -19,4 +19,10 @@ a {
   font-size: 1em;
   letter-spacing: 0.1em;
   font-weight: bold;
+}
+
+.drafts img {
+  max-width: 400px;
+  margin: 60px auto;
+  display: block;
 }
