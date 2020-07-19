@@ -1,26 +1,24 @@
 title: Double Great
 description: "Web projects made in Upstate New York."
 url: "https://doublegreat.dev"
-theme: minima
+remote_theme: double-great/great-great-jekyll-theme@main
 github: double-great
 permalink: pretty
 collections:
   projects:
     output: true
 show_excerpts: true
+header_pages:
+  - drafts.md
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo
+  - jekyll-remote-theme
 defaults:
   - scope:
       path: ""
       type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-      type: "projects"
     values:
       layout: "post"
 
