@@ -10,6 +10,7 @@ collections:
 show_excerpts: true
 header_pages:
   - drafts.md
+  - colophon.md
 plugins:
   - jekyll-feed
   - jekyll-sitemap
