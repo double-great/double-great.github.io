@@ -1,5 +1,5 @@
 ---
-title: feedback-library
+title: Feedback Library
 override_url: https://doublegreat.dev/feedback-library/
 ---
 
