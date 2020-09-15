@@ -2,6 +2,7 @@
 layout: home
 list_title: Projects
 content_position: bottom
+show_excerpts: true
 contributors:
   - name: Jason Morris
     github: jsnmrs

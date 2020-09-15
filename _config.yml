@@ -7,7 +7,6 @@ permalink: pretty
 collections:
   projects:
     output: true
-show_excerpts: true
 header_pages:
   - drafts.md
   - colophon.md
