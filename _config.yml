@@ -13,7 +13,7 @@ header_pages:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo
+  - jekyll-seo-tag
   - jekyll-remote-theme
 defaults:
   - scope:
