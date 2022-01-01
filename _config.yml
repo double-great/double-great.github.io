@@ -1,7 +1,7 @@
 title: Double Great
 description: "Web projects made in Upstate New York."
 url: "https://doublegreat.dev"
-remote_theme: double-great/great-great-jekyll-theme@main
+remote_theme: double-great/great-great-jekyll-theme@v1.0.0
 github: double-great
 permalink: pretty
 collections:
