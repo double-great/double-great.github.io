@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/double-great/double-great.github.io#readme",
   "devDependencies": {
-    "husky": "^7.0.4",
+    "husky": "^8.0.1",
     "prettier": "^2.6.2",
     "pretty-quick": "^3.1.3"
   },
